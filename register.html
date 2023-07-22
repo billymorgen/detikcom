@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Detikfinance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" />
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+
+         <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body id="list-item-0" style="background-color: rgb(189, 189, 189);">
+    <!-- Header Start -->
+
+    <!--navbar start-->
+     <nav style = "background-color: #0066cc;" class="navbar navbar-expand-lg navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand">
+            <img src="assets/gbr.png" style="width: 230px; float:left; padding-left: 30px;"> 
+        </a>
+<button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarCollapse" style="padding-left: 30px;">
+    <div class="navbar-nav ms-auto">
+        <a  href="#list-item-1" class="nav-item nav-link active" style="margin-right: 30px">About</a>
+        <a href="#list-item-2" class="nav-item nav-link active" style="margin-right: 30px">Mechanism</a>
+        <a href="#list-item-3" class="nav-item nav-link active"style="margin-right: 30px">Latest Update</a>
+    </div>
+    <a href="php/admin.php" class="btn btn-light rounded-pill d-lg-block" style="margin-right: 70px;" >&nbsp; &nbsp;&nbsp;Register&nbsp; &nbsp;&nbsp;</i></a>
+</div>
+</nav>
+<!-- Header End -->
+
+<header class="register" id="list-item-2" style="padding-bottom: 50px;">
+    <img src="assets/componen.png"  class="img-fluid rounded-circle mb-2" style="width: 1400px; height: 150px" >
+    <div class=" h-100" >
+        <div class="row gx-4 gx-lg-8  justify-content-center">
+            <div class="col-lg-8 align-self-end">
+                <h1 class="text-white font-weight-bold" style="text-align: center;">Mekanisme</h1>
+            </div></div></div></header><br>
+            <div class="col-lg-8 align-self-baseline rounded" style="background-color: rgb(255, 255, 255); margin-top: 40px;margin: auto; padding-top: 20px;">
+                    <form method="POST" action="proses/prosestambahdatakapal.php" style="padding-right:30px; padding-left:50px;color:black;">
+                        <div class="form-floating mb-3" style="padding-right: 20px; padding-top: 20px;">
+                            <input type="text" class="form-control" id="lokasi"  name="lokasi" placeholder="Masukkan Lokasi">
+                            <label>Nama Perusahaan<span style="color: red;">*</span></label>
+                        </div>
+                        <div class="form-floating mb-3" style="padding-right: 20px; padding-top: 20px;">
+                            <input type="text" class="form-control" id="lokasi"  name="lokasi" placeholder="Masukkan Lokasi">
+                            <label>Email<span style="color: red;">*</span></label>
+                        </div>
+                        <div class="form-floating mb-3" style="padding-right: 20px; padding-top: 20px;">
+                            <input type="text" class="form-control" id="lokasi"  name="lokasi" placeholder="Masukkan Lokasi">
+                            <label>Nomor Telepon<span style="color: red;">*</span></label>
+                            <h5 style="color: #a3a3a3; font-size: small;">isi hanya angka</h5>
+                        </div>
+
+                        <div class="form-floating mb-3" style="padding-top: 10px; padding-right: 20px">
+                            <textarea class="form-control" id="medis"  name="medis" placeholder="medis" ></textarea>
+                            <label for="floatingPassword">Tentang Perusahaan (Max 200 character)</label>
+                        </div>
+
+                        <!--Image-->
+                    <div>
+                        <div class="mb-4 d-flex justify-content-left">
+                        </div>
+                        <div class="d-flex justify-content-left">
+                            <div class="btn btn-primary btn-rounded">
+                                <label class="form-label text-white m-1" for="customFile1"> <img src="assets/file.png"
+                                    alt="example placeholder" style="width: 130px; float: left;" /></label>
+                                <input type="file" class="form-control d-none" id="customFile1" />
+                                
+                            </div>
+                            <span style="padding-left: 10px;padding-top: 15px;">
+                                <ol typpe="number">
+                                    <li>Format file png, jpg, jpeg</li>
+                                    <li>Maksimal ukuran file 200KB</li>
+                                    <li>Hindari penggunaan logo berwarna putih</li>
+                                    <li>Minimal lebar 300px</li>
+                                </ol></span>
+                        </div>
+                    </div>
+
+                    <div style="padding-right: 20px; padding-top: 20px;">
+                        <label>Profil Perusahaan atau Deck (opsional)</label>
+                        <span><div class="btn btn-primary btn-rounded"style="float:right">
+                            <label class="form-label text-white m-1" for="customFile1">Choose file</label>
+                            <input type="file" class="form-control d-none" id="customFile1" />
+                        </div></span>
+                        <h5 style="color: #a3a3a3; font-size: small;">Format PDF, maksimal 20mb</h5>
+
+                    </div>
+
+                    <div class="form-floating mb-3" style="padding-right: 20px; padding-top: 20px;">
+                        <input type="text" class="form-control" id="lokasi"  name="lokasi" placeholder="Masukkan Lokasi">
+                        <label>Link Website<span style="color: red;">*</span></label>
+                        <h5 style="color: #a3a3a3; font-size: small;">Masukkan link website perusahaan anda</h5>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Dengan menekan tombol "Daftar", saya menyetujui syarat dan ketentuan yang berlaku
+                        </label>
+                      </div>
+
+                        <br>
+                        <div class="justify-content-center" >
+                        <button type="submit" class="btn btn-primary"  name="submit" style="margin-left:45%; padding-left: 30px; padding-right: 30px;">Register</button>
+                    </div>
+                    <br>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <!-- Footer Start -->
+                <div class="container-fluid text-light mt-5 py-5" style="background-color: #0066cc;">
+                    <img src="assets/gbr.png" style="width: 230px; float:left; padding-left: 30px;"> <br><br><br>
+                    <h5 style="color: white; font-size: small; padding-left: 30px;">Detikfinance Memberikan ruang kepada para startup di Indonesia Untuk Menunjukkan,<br>
+                        serta mempromosikan brand mereka untuk mendapatkan perhatian dari venture capital atau angel investor</h5>
+                        <span style="color: aliceblue; padding-left: 85%;"><a href="https://twitter.com/share"><i class="fab fa-twitter fa-lg" style="padding-right: 10px;"></i><i class="fab fa-whatsapp fa-lg" style="padding-right: 10px;"></i><i class="fab fa-facebook fa-lg" style="padding-right: 10px;"></i></a></span><hr size="10px">
+                    <h5 style="color: rgb(155, 153, 153); font-size: small; padding-left: 30px;">©2023 Detikcom all right reversed</h5>
+                </div>
+                </div>
+                <!-- Footer End -->
+            </body>
+            </html>
+
